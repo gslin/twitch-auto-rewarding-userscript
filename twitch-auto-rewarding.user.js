@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitch Auto Rewarding
 // @namespace    https://github.com/gslin/twitch-auto-rewarding-userscript
-// @version      0.20210518.0
+// @version      0.20210518.1
 // @description  Auto rewarding channel points on Twitch.
 // @author       Gea-Suan Lin <gslin@gslin.com>
 // @match        https://www.twitch.tv/*
@@ -13,7 +13,7 @@
     'use strict';
 
     setInterval(() => {
-        let el = document.querySelector('div[data-test-selector="community-points-summary"] button[class^="ScCoreButton-sc-"] svg').closest('button')
+        let el = document.querySelector('div.claimable-bonus__icon').closest('button')
         if (el) {
             console.debug('Twitch Auto Rewarding clicked a button.');
             el.click();
