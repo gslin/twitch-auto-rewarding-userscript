@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitch Auto Rewarding
 // @namespace    https://github.com/gslin/twitch-auto-rewarding-userscript
-// @version      0.20230311.0
+// @version      0.20230320.0
 // @description  Auto rewarding channel points on Twitch.
 // @author       Gea-Suan Lin <gslin@gslin.com>
 // @match        https://www.twitch.tv/*
