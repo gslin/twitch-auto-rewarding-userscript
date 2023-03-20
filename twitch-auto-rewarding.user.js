@@ -13,7 +13,7 @@
     'use strict';
 
     setInterval(() => {
-        let el = document.querySelector('div.claimable-bonus__icon')?.closest('button')
+        let el = document.querySelector('div.claimable-bonus__icon')?.closest('button');
         if (el) {
             console.debug('Twitch Auto Rewarding clicked a button.');
             el.click();
